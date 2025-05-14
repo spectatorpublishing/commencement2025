@@ -7,6 +7,7 @@ import "./OverlayPage.css";
 import "../components/CardStyles.css";
 import VerticalCard from "../components/VerticalCard";
 import HorizontalCard from "../components/HorizontalCard";
+import BackToTopButton from "../components/BackToTopButton";
 
 import {
   university_articles,
@@ -107,6 +108,7 @@ const OverlayPage = () => {
       </div>
 
       <div className="card-layout">{cardGroups}</div>
+      <BackToTopButton />
     </div>
   );
 };

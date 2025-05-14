@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import { useState } from "react";
+import BackToTopButton from "../components/BackToTopButton";
+
 
 const Container = styled.div`
   display: flex;
@@ -25,6 +27,7 @@ function Homepage() {
             <Container>
                 <Year> 2025</Year>
             </Container>
+            <BackToTopButton />
         </div>
     );
 }
