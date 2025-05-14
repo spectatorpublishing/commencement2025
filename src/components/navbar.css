@@ -1,0 +1,31 @@
+.nav-button:hover circle {
+  fill: #555;
+}
+
+.nav-label {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  fill: black;
+}
+
+.nav-label.selected {
+  font-style: italic;
+}
+
+.nav-container {
+  width: 100%;
+  padding: 40px 0;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 5;
+}
+
+.nav-svg {
+  width: 100vw;
+  height: auto;
+  display: block;
+  overflow: visible;
+}

@@ -1,0 +1,105 @@
+.card-vertical {
+  width: 580px;
+  height: 700px;
+  background: #000;
+  border-radius: 13px;
+  position: relative;
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 30px 20px;
+}
+
+.card-horizontal {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background: #000;
+  border-radius: 13px;
+  color: white;
+  padding: 30px 20px 30px 110px; 
+  width: 1160px; 
+  height: 317px;
+  position: relative;
+}
+
+.card-image-horizontal {
+  width: auto;
+  height: 232px;
+  aspect-ratio: 1.741;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card-badge {
+  position: absolute;
+  top: 36px;
+  left: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-circle {
+  width: 61px;
+  height: 61px;
+  background: #EE352E;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.card-number {
+  position: relative;
+  z-index: 1;
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.card-image-vertical {
+  display: block;
+  width: 63%;
+  margin: 80px auto 30px auto;
+  object-fit: cover;
+}
+
+.card-title-vertical {
+  font-size: 26px;
+  text-align: center;
+  margin: 20px auto 10px;
+  line-height: 1.2;
+  width: 80%;
+}
+
+.card-subtitle-vertical {
+  font-size: 19px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.card-content-horizontal {
+  flex-grow: 1;
+}
+
+.card-title-horizontal {
+  font-size: 26px;
+  margin-top: 30px;
+}
+
+.card-subtitle-horizontal {
+  font-size: 19px;
+  margin-top: 20px;
+}
+
+.card-arrow {
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: auto;
+}

@@ -1,23 +1,22 @@
-import './App.css';
-import { Routes, Route } from 'react-router-dom';
-
-import Homepage from './pages/Homepage';
-
+import { Routes, Route, useLocation } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import OverlayPage from "./pages/OverlayPage";
 
 function App() {
+  const location = useLocation();
+
   return (
-  <div>
-        <Routes>
-
-          <Route path="/" element={<Homepage/>} />
-          <Route path="city" element={<p>city</p>} />
-          <Route path="/ac" element={<p>ac</p>} />
-          <Route path="/sports" element={<p>sports</p>} />
-          <Route path="spectrum" element={<p>spectrum</p>} />
-
-        </Routes>
-    </div>
-    
+    <>
+      {location.pathname === "/home" && <Navbar />}
+      <Routes>
+        <Route path="/university" element={<OverlayPage />} />
+        <Route path="/arts" element={<OverlayPage />} />
+        <Route path="/audio" element={<OverlayPage />} />
+        <Route path="/sports" element={<OverlayPage />} />
+        <Route path="/opinion" element={<OverlayPage />} />
+        <Route path="/spectrum"  element={<OverlayPage />} />
+      </Routes>
+    </>
   );
 }
 
