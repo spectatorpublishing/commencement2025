@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Montserrat:wght@400;500;700;800&display=swap');
+
+.home-page {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #D3F6FF;
+  color: black;
+}
+
+.section {
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin: 40px 0; 
+  position: relative;
+  z-index: 1;
+}
+
+.white-box {
+  position: relative;
+  z-index: 1;
+  background-color: white;
+  border: 2px dashed black;
+  border-radius: 50px;
+  padding: 4rem;
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 1500px;
+  box-sizing: border-box;
+}
+
+.editor-title {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.editor-paragraph {
+  font-size: 27px;
+  line-height: 1.6;
+  font-weight: 500;
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.editor-signatures {
+  display: flex;
+  justify-content: flex-start;
+  gap: 100px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.signature-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.signature-name {
+  font-family: 'Ms Madi', cursive;
+  font-size: 39px;
+  font-weight: 400;
+  line-height: 1;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.signature-title {
+  font-size: 29px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+}
+
+.staff-credits h2,
+.credits-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 100%;
+  margin-bottom: 64px;
+}
+
+.credits-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 100px;
+  justify-content: center;
+  padding: 0 140px;
+}
+
+.credit-column {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 36px;
+  letter-spacing: 0.1em;
+}
+
+.credit-column h3 {
+  font-size: 30px;
+  line-height: 41px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  margin-bottom: 8px;
+  font-weight: normal;
+}
+
+.credit-column p {
+  margin: 4px 0;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.credit-section {
+  font-size: 33.64px;
+  font-weight: 500;
+  line-height: 41px;
+  letter-spacing: 0.1em;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 12px;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+  .editor-signatures {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .white-box {
+    padding: 2rem;
+  }
+
+  .editor-title, .staff-credits h2 {
+    font-size: 36px;
+  }
+
+  .editor-paragraph {
+    font-size: 20px;
+  }
+
+  .signature-name {
+    font-size: 32px;
+  }
+
+  .signature-title {
+    font-size: 22px;
+  }
+
+  .credits-grid {
+    grid-template-columns: 1fr;
+    padding: 0 20px;
+    gap: 40px;
+  }
+
+  .credit-column {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .credit-column h3 {
+    font-size: 24px;
+  }
+}
+
+.credits-flex {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 80px;
+  justify-items: start;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media (max-width: 990px) {
+  .credits-flex {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 60px;
+  }
+
+  .credit-column {
+    text-align: center;
+  }
+}
+
+.image-behind-wrapper {
+  position: relative;
+  width: 100vw; 
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow-x: hidden;
+}
+
+.background-image {
+  position: absolute;
+  top: 150px; 
+  left: 0;
+  width: 100vw;
+  z-index: 0;
+  pointer-events: none;
+}

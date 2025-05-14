@@ -3,7 +3,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import "./navbar.css";
 
 const sections = [
-  { name: "Home", x: 510.37, path: "/home" },
+  { name: "Home", x: 510.37, path: "/" },
   { name: "University", x: 728, path: "/university" },
   { name: "A&C", x: 861.69, path: "/arts" },
   { name: "Audio", x: 984.7, path: "/audio" },
