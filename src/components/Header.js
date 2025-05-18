@@ -18,7 +18,7 @@ const FlexContainer = styled.div`
   position: relative;
   ;
 
-  @media (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     flex-direction: column;
     align-items: center;
   }  
@@ -245,7 +245,7 @@ const GradTextWrapper = styled.h1`
   @media (max-width: 1100px) {
     font-size: 55px;
   }
-  @media (max-width: 768px) {
+  @media  screen and (max-width: 768px) {
     font-size: 45px;
   }
 `;
