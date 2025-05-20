@@ -58,7 +58,7 @@ const OverlayBanner = styled.div`
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-   justify-content: flex-end;
+  justify-content: flex-end;
   
   background-image: 
     linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),
