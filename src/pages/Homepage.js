@@ -1,15 +1,36 @@
+import { useEffect, useState } from "react";
 import styled from "styled-components";
-import { useState } from "react";
-import Header from "../components/Header";
 
+import BackToTopButton from "../components/BackToTopButton";
+import MobileHeader from "../components/MobileHeader";
+import NewHeader from "../components/NewHeader";
+import Credits from "./Credits";
 
+//Custom hook to detect mobile screen sizes -- Noel
+function useIsMobile(breakpoint = 768) {
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= breakpoint);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= breakpoint);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, [breakpoint]);
+
+  return isMobile;
+}
 
 function Homepage() {
-    return(
-        <div>
-            <Header />
-        </div>
-    );
+  const isMobile = useIsMobile();
+
+  return (
+    <div>
+      {isMobile ? <MobileHeader /> : <NewHeader />}
+      <Credits />
+    </div>
+  );
 }
 
 export default Homepage;
