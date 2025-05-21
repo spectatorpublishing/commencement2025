@@ -1,35 +1,36 @@
+import { useEffect, useState } from "react";
 import styled from "styled-components";
-import { useState } from "react";
+
 import BackToTopButton from "../components/BackToTopButton";
+import MobileHeader from "../components/MobileHeader";
+import NewHeader from "../components/NewHeader";
+import Credits from "./Credits";
 
+//Custom hook to detect mobile screen sizes -- Noel
+function useIsMobile(breakpoint = 768) {
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= breakpoint);
 
-const Container = styled.div`
-  display: flex;
-  justify-content: flex-end; /* or space-between if needed */
-`
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= breakpoint);
+    };
 
-const Year =  styled.div`
-    color: #000;
-    font-family: Montserrat;
-    font-size: 400px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-`
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, [breakpoint]);
 
-
-
-
+  return isMobile;
+}
 
 function Homepage() {
-    return(
-        <div>
-            <Container>
-                <Year> 2025</Year>
-            </Container>
-            <BackToTopButton />
-        </div>
-    );
+  const isMobile = useIsMobile();
+
+  return (
+    <div>
+      {isMobile ? <MobileHeader /> : <NewHeader />}
+      <Credits />
+    </div>
+  );
 }
 
 export default Homepage;

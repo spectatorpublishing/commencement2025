@@ -7,8 +7,6 @@ import biggerSubwayLines from "../images/biggerSubwayLines.png";
 const Credits = () => {
   return (
     <div className="home-page">
-      <Navbar />
-
       <div className="section editor-letter">
         <div className="image-behind-wrapper">
           <div className="white-box">

@@ -62,7 +62,12 @@ const Navbar = () => {
             className="nav-button"
             style={{ cursor: "pointer" }}
           >
-            <circle cx={section.cx} cy={section.cy} r="12" fill="black" />
+        <circle
+          cx={section.cx}
+          cy={section.cy}
+          r="12"
+          className={`nav-dot ${location.pathname === section.path ? "active" : ""}`}
+        />
             <text
               x={section.cx}
               y={section.cy + 30}

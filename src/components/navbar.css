@@ -29,3 +29,21 @@
   display: block;
   overflow: visible;
 }
+
+.nav-dot {
+  fill: black;
+  transition: fill 0.3s ease;
+}
+
+.nav-dot.active {
+  fill: red;
+}
+
+
+.nav-button:hover .nav-dot {
+  fill: #555;
+}
+
+.nav-button:hover .nav-dot.active {
+  fill: darkred;
+}
