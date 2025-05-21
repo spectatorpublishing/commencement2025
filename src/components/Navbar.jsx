@@ -3,13 +3,12 @@ import { useNavigate, useLocation } from "react-router-dom";
 import "./navbar.css";
 
 const sections = [
-  { name: "Home", x: 510.37, path: "/" },
-  { name: "University", x: 728, path: "/university" },
-  { name: "A&C", x: 861.69, path: "/arts" },
-  { name: "Audio", x: 984.7, path: "/audio" },
+  { name: "Home", x: 500.37, path: "/" },
+  { name: "University", x: 778, path: "/university" },
+  { name: "A&C", x: 961.69, path: "/arts" },
   { name: "Sports", x: 1131.76, path: "/sports" },
-  { name: "Opinion", x: 1308.86, path: "/opinion" },
-  { name: "Spectrum", x: 1520.84, path: "/spectrum" }
+  { name: "Spectrum", x: 1350.86, path: "/spectrum" },
+  { name: "Crosswords", x: 1520.84, path: "/crosswords" }
 ];
 
 const Navbar = () => {

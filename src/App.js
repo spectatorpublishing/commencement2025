@@ -16,7 +16,7 @@ function App() {
       <Route path="/arts" element={<Overlay />} />
       <Route path="/audio" element={<Overlay />} />
       <Route path="/sports" element={<Overlay />} />
-      <Route path="/opinion" element={<Overlay />} />
+      <Route path="/crosswords" element={<Overlay />} />
       <Route path="/spectrum" element={<Overlay />} />
     </Routes>
   );

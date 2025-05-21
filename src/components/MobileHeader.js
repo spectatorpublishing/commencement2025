@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import placeholder from '../images/commencement_placeholder.png';
+import placeholder from '../images/CommencementSE.jpeg';
 
 import specLogo from "../images/specLogo.png";
 import GraduationCap from "./GraduationIcon";
@@ -10,6 +10,8 @@ import greybar from "../images/greybar_image.png";
 import MediumPerson from "./people_icons_mobile/MediumPerson_Mobile";
 import SmallPersonMobile from "./people_icons_mobile/SmallPerson_Mobile";
 import LargePerson from "./people_icons_mobile/LargePerson_Mobile";
+
+import MobileNavBar from "../components/mobile_componenets/mobile_navbar";
 
 const SpecLogoContainer = styled.div`
   padding:10px;
@@ -24,8 +26,10 @@ const ImageContainer = styled.div`
 `
 
 const Image = styled.img`
-    width: 80%;
+    width: 90%;
     height: 80%;
+    border-radius: 10px;
+    border: 3px solid #FFF;
 `
 
 const YearContainer = styled.div`
@@ -91,6 +95,11 @@ const CongratualtionsText = styled.div`
     line-height: normal;
     padding: 10px;
 `
+const Spacer = styled.div`
+    padding-top:10px;
+`
+
+
 
 export default function MobileHeader() {
     return (
@@ -126,9 +135,9 @@ export default function MobileHeader() {
             <CongratualtionsText>CONGRATS CLASS OF 2025</CongratualtionsText>
         </Banner>
 
-
-
-
+        <Spacer/>
+        <MobileNavBar/>
+    
         </>
     );
   }

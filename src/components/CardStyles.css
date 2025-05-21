@@ -7,6 +7,12 @@
   color: white;
   font-family: Arial, sans-serif;
   padding: 30px 20px;
+  border: 2px solid transparent;
+  transition: border-color 0.45s ease;
+}
+
+.card-vertical:hover {
+  border: 8px solid red;
 }
 
 .card-horizontal {
@@ -20,6 +26,12 @@
   width: 1160px; 
   height: 317px;
   position: relative;
+  border: 2px solid transparent;
+  transition: border-color 0.45s ease;
+}
+
+.card-horizontal:hover {
+  border: 8px solid red;
 }
 
 .card-image-horizontal {

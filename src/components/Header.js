@@ -3,7 +3,7 @@ import styled from "styled-components";
 import greybar from "../images/greybar_image.png";
 import cap from "../images/cap_image.png";
 import gradfig from "../images/gradfig_image.png";
-import sketch from "../images/commencement_placeholder.png";
+import sketch from "../images/CommencementSE.jpeg";
 import subway123 from "../images/123subway_image.png";
 import subwayACE from "../images/ACEsubway_image.png";
 

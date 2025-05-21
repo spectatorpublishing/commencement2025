@@ -3,6 +3,7 @@ import styled from "styled-components";
 import MobileCricleIcon from "./MobileCricleIcon";
 import TempCard from "../images/a15785f11af6bf61c91dddb3a2da7b7e64554cc3.jpg";
 import ArrowIconMobile from "../components/ArrowIconMobile";
+import { typeImplementation } from "@testing-library/user-event/dist/type/typeImplementation";
 
 const CardContainer = styled.div`
   width: 85%;
@@ -76,38 +77,41 @@ const ArrowWrapper = styled.div`
     display: flex;
     justify-content: flex-end; 
     padding-right: 60px;
-    `
+  `
 
+const CardLink = styled.a`
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+`;
 
 
 const MobileCard = ({ number, title, authorName, image, url }) => (
-  <CardContainer>
-    <IconWrapper>
-      <MobileCricleIcon />
-    </IconWrapper>
+  <CardLink href={url} target="_blank" rel="noopener noreferrer">
+    <CardContainer>
+      <IconWrapper>
+        <MobileCricleIcon number={number} />
+      </IconWrapper>
 
-    <ImageContainer>
-      <CardImage src={TempCard} alt={title} />
-    </ImageContainer>
+      <ImageContainer>
+        <CardImage src={image || TempCard} alt={title} />
+      </ImageContainer>
 
+      <TitleContainer>
+        <ArticleTitle>{title}</ArticleTitle>
+      </TitleContainer>
 
-    <TitleContainer>
-        <ArticleTitle>Epic Title Wow So Epic and So Long WooHooo I love Spec</ArticleTitle>
-    </TitleContainer>
+      <AuthorContainer>
+        <ArticleAuthor>By {authorName}</ArticleAuthor>
+      </AuthorContainer>
 
-    <AuthorContainer>
-        <ArticleAuthor>By Noel Negron</ArticleAuthor>
-    </AuthorContainer>
-
-
-    <ArrowWrapper>
+      <ArrowWrapper>
         <ArrowIconMobile width={35} height={30} stroke="#FFFF" />
-    </ArrowWrapper>
-
-
-  
-
-  </CardContainer>
+      </ArrowWrapper>
+    </CardContainer>
+  </CardLink>
 );
+
 
 export default MobileCard;

@@ -3,7 +3,7 @@ import styled from "styled-components";
 import greybar from "../images/greybar_image.png";
 import cap from "../images/cap_image.png";
 
-import placeholder from '../images/commencement_placeholder.png';
+import placeholder from '../images/CommencementSE.jpeg';
 
 import Navbar from "./Navbar";
 import RedCircleIcon from "./RedElispe";
@@ -34,7 +34,6 @@ const Container = styled.div`
 `;
 
 const ImageContainer = styled.div`
-  padding-top: 10px;
 
 `
 const Image = styled.img`
@@ -44,6 +43,9 @@ const Image = styled.img`
   height: auto; 
   max-width: 548.429px; 
   z-index: 6;
+  border-radius: 10px;
+  border: 5px solid #FFF;
+  transform: translateX(5%);
 `;
 
 const YearContainer = styled.div`
@@ -93,7 +95,7 @@ const TextBlock = styled.div`
   font-weight: 800;
   max-width: 100%;
   text-align: center;
-  margin-bottom: 16px;
+  margin-bottom: 5px;
 `;
 
 const CapImage = styled.img`
@@ -106,7 +108,7 @@ const CapImage = styled.img`
 `;
 
 const Year = styled.div`
-  font-size: clamp(60px, 20vw, 380px); /* responsive scaling */
+  font-size: clamp(60px, 23vw, 680px); /* responsive scaling */
   font-family: Montserrat, sans-serif;
   font-weight: 800;
   color: #000;
