@@ -78,7 +78,6 @@ const MobileNavBar = () => (
         <NavIcon to="/" label="Home" />
         <NavIcon to="/university" label="University" />
         <NavIcon to="/arts" label="A&C" />
-        <NavIcon to="/audio" label="Audio" />
       </IconRow>
     </NavBarContainer>
 
@@ -86,7 +85,7 @@ const MobileNavBar = () => (
       <WhiteBar />
       <IconRow2>
         <NavIcon to="/sports" label="Sports" />
-        <NavIcon to="/opinion" label="Opinion" />
+        <NavIcon to="/crosswords" label="Crosswords" />
         <NavIcon to="/spectrum" label="Spectrum" />
       </IconRow2>
     </NavBarContainer>
