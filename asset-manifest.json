@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fb7535ed.css",
+    "main.js": "/static/js/main.0a175fc1.js",
+    "static/js/453.d8c3a6f4.chunk.js": "/static/js/453.d8c3a6f4.chunk.js",
+    "static/media/CommencementSE.jpeg": "/static/media/CommencementSE.09b8e9c7cf6bf9e8f343.jpeg",
+    "static/media/64554cc3.jpg": "/static/media/a15785f11af6bf61c91dddb3a2da7b7e64554cc3.c660b069c4cac256dd13.jpg",
+    "static/media/greybar_image.png": "/static/media/greybar_image.74f358f922f014ddaa9d.png",
+    "static/media/biggerSubwayLines.png": "/static/media/biggerSubwayLines.2107176f0f3b17cd19b7.png",
+    "static/media/subwayLines.png": "/static/media/subwayLines.34b126ec1a43f2ce55b3.png",
+    "index.html": "/index.html",
+    "main.fb7535ed.css.map": "/static/css/main.fb7535ed.css.map",
+    "main.0a175fc1.js.map": "/static/js/main.0a175fc1.js.map",
+    "453.d8c3a6f4.chunk.js.map": "/static/js/453.d8c3a6f4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb7535ed.css",
+    "static/js/main.0a175fc1.js"
+  ]
+}
