@@ -3,7 +3,6 @@ import styled from "styled-components";
 import MobileCricleIcon from "./MobileCricleIcon";
 import TempCard from "../images/a15785f11af6bf61c91dddb3a2da7b7e64554cc3.jpg";
 import ArrowIconMobile from "../components/ArrowIconMobile";
-import { typeImplementation } from "@testing-library/user-event/dist/type/typeImplementation";
 
 const CardContainer = styled.div`
   width: 85%;

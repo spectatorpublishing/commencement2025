@@ -125,13 +125,6 @@ const CongratsText = styled.div`
 `;
 
 
-const GradWrapper = styled.div`
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: flex-end;  
-    align-items: flex-end;     
-`
 const IconContainer = styled.div`
   display: flex;
   align-items: center;
@@ -153,7 +146,9 @@ export default function NewHeader() {
     
     <Section>
     <SpecLogoContainer>
-    <img src={specLogo} alt="Spec Logo" className="spec-logo" />
+        <a href="https://www.columbiaspectator.com/" target="_blank" rel="noopener noreferrer">
+        <img src={specLogo} alt="Spec Logo" className="spec-logo" />
+      </a>
     </SpecLogoContainer>
 
 

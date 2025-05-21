@@ -124,7 +124,7 @@ export const sports_articles = [
     article_link: "https://www.columbiaspectator.com/sports/2025/05/15/diver-macy-pine-cc-25-defines-her-own-way-to-lead-with-joy/",
     article_title: "Diver Macy Pine, CC ’25, defines her own way to lead with joy",
     article_authors: "Kaya Quebada",
-    image_url: "https://spectator.arcpublishing.com/resizer/v2/IQSA7RURIRFVTMFT4NCHSVXCX4.jpg?auth=1bc1257dc9b3fc1854bc7bc72b95a6048c97774c7d6f8c76d50c9e9fbc0cd357"
+    image_url: "https://www.columbiaspectator.com/resizer/v2/IQSA7RURIRFVTMFT4NCHSVXCX4.jpg?auth=1bc1257dc9b3fc1854bc7bc72b95a6048c97774c7d6f8c76d50c9e9fbc0cd357"
   },
   {
     article_link: "https://www.columbiaspectator.com/sports/2025/05/07/a-second-family-fatima-keita-cc-25-on-finding-community-on-the-tennis-court/",

@@ -1,6 +1,5 @@
 import React from "react";
 import "./Credits.css";
-import Navbar from "../components/Navbar";
 import { credits } from "../data/credits";
 import biggerSubwayLines from "../images/biggerSubwayLines.png";
 

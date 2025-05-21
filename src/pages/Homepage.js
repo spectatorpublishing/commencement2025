@@ -1,7 +1,4 @@
 import { useEffect, useState } from "react";
-import styled from "styled-components";
-
-import BackToTopButton from "../components/BackToTopButton";
 import MobileHeader from "../components/MobileHeader";
 import NewHeader from "../components/NewHeader";
 import Credits from "./Credits";

@@ -106,8 +106,11 @@ export default function MobileOverlayPage() {
   return (
     <>
       <SpecLogoContainer>
-      <img src={specLogo} alt="Spec Logo" className="spec-logo" />
+        <a href="https://www.columbiaspectator.com/" target="_blank" rel="noopener noreferrer">
+         <img src={specLogo} alt="Spec Logo" className="spec-logo" />
+        </a>
       </SpecLogoContainer>
+      
       <Header>
         {/* Background waves - now fully visible */}
         <LineImg src={`${process.env.PUBLIC_URL}/images/Vector10.svg`} top={5} alt="Yellow wave" />
