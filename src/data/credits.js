@@ -7,10 +7,10 @@ export const credits = {
   ],
   "Engineering": [
     { staff_name: "Noel Negron", title: "Head of Engineering" },
-    { staff_name: "Aishani Srikumar", title: "Enginnering Manager" },
-    { staff_name: "Zara Khan", title: "Enginnering Manager" },
-    { staff_name: "Julien Remy", title: "Enginnering Manager" },
-    { staff_name: "Annie Dong", title: "Senior Enginnering Developer" }
+    { staff_name: "Aishani Srikumar", title: "Engineering Manager" },
+    { staff_name: "Zara Khan", title: "Engineering Manager" },
+    { staff_name: "Julien Remy", title: "Engineering Manager" },
+    { staff_name: "Annie Dong", title: "Senior Engineering Developer" }
   ],
   "Product": [
     { staff_name: "Daniela Velazquez", title: "Head of Product" },
@@ -89,5 +89,27 @@ export const credits = {
     { staff_name: "Ananya Govindarajan", title: "Head of Crosswords" },
     { staff_name: "Molly Durawa", title: "Deputy Crosswords Editor" },
     { staff_name: "Reda Shaikh", title: "Crosswords" }
-  ]
+  ],
+  "Opinion": [
+  { staff_name: "Achilles Frangos", title: "Editorial Page Editor" },
+  { staff_name: "Isabelle Bouvier", title: "Logistics Deputy" },
+  { staff_name: "Ellessandra Taormino", title: "Columns Editor" },
+  { staff_name: "Sydney Goldston", title: "Projects Deputy" },
+  { staff_name: "Tommy Koh", title: "Projects Deputy" },
+  { staff_name: "Sydney Alleyne", title: "Student Life Beat Editor" },
+  { staff_name: "Cian Iacovou", title: "Admin/City Beat Editor" }
+],
+"University News": [
+  { staff_name: "Isha Banerjee", title: "University News Editor" },
+  { staff_name: "Apurva Chakravarthy", title: "Deputy News Editor" },
+  { staff_name: "Daksha Pillai", title: "Deputy News Editor" },
+  { staff_name: "Emily Pickering", title: "Deputy News Editor" },
+  { staff_name: "Joseph Zuloaga", title: "Deputy News Editor" },
+  { staff_name: "Spencer Davis", title: "Deputy News Editor" },
+  { staff_name: "Tulasi Cherukuri", title: "Deputy News Editor" },
+  { staff_name: "Eden Stranahan", title: "Senior Staff Writer" },
+  { staff_name: "Grace Hamilton", title: "Senior Staff Writer" },
+  { staff_name: "Ria Vashishtha", title: "Staff Writer" }
+]
+
 };
