@@ -7,10 +7,10 @@ export const credits = {
   ],
   "Engineering": [
     { staff_name: "Noel Negron", title: "Head of Engineering" },
-    { staff_name: "Aishani Srikumar", title: "Enginnering Manager" },
-    { staff_name: "Zara Khan", title: "Enginnering Manager" },
-    { staff_name: "Julien Remy", title: "Enginnering Manager" },
-    { staff_name: "Annie Dong", title: "Senior Enginnering Developer" }
+    { staff_name: "Aishani Srikumar", title: "Engineering Manager" },
+    { staff_name: "Zara Khan", title: "Engineering Manager" },
+    { staff_name: "Julien Remy", title: "Engineering Manager" },
+    { staff_name: "Annie Dong", title: "Senior Engineering Developer" }
   ],
   "Product": [
     { staff_name: "Daniela Velazquez", title: "Head of Product" },
