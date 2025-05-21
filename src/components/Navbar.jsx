@@ -6,9 +6,10 @@ const sections = [
   { name: "Home", x: 500.37, path: "/" },
   { name: "University", x: 778, path: "/university" },
   { name: "A&C", x: 961.69, path: "/arts" },
-  { name: "Sports", x: 1131.76, path: "/sports" },
-  { name: "Spectrum", x: 1350.86, path: "/spectrum" },
-  { name: "Crosswords", x: 1520.84, path: "/crosswords" }
+  { name: "Sports", x: 1101.76, path: "/sports" },
+  { name: "Spectrum", x: 1250.86, path: "/spectrum" },
+  { name: "Opinion", x: 1395.86, path: "/opinion" },
+  { name: "Crosswords", x: 1560.84, path: "/crosswords" }
 ];
 
 const Navbar = () => {

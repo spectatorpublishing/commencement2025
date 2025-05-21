@@ -149,6 +149,82 @@ export const crossword_articles = [
   }
 ];
 
+export const opinion_articles = [
+  {
+    article_link: "https://www.columbiaspectator.com/opinion/2025/05/18/the-view-from-here/",
+    article_title: "The view from here",
+    article_authors: "Isabella Ramirez",
+    image_url: "https://www.columbiaspectator.com/resizer/v2/FAZIYAPOA5FHTO74GLVA3FCNEY.jpg?auth=525dee4d0893fae21e8246c442a3d7ac1dc55d47edeb8a0c0680b2f6c7164075"
+  },
+  {
+    article_link: "https://www.columbiaspectator.com/opinion/2025/05/13/on-passing-through/",
+    article_title: "On passing through",
+    article_authors: "Esha Karam",
+    image_url: "https://www.columbiaspectator.com/resizer/v2/JZQ6AXBOD5CJ7L5RQN7NRPXLXY.jpg?auth=5b2a75685a7ca46c8b2d7fc9ee8547c3ce988e3b3f8254f7e44d33310d8de158"
+  },
+  {
+    article_link: "https://www.columbiaspectator.com/opinion/2025/05/01/i-spent-four-years-at-spectator-and-all-i-wrote-was-this-column/",
+    article_title: "I spent four years at Spectator and all I wrote was this column",
+    article_authors: "Yvin Shin",
+    image_url: "https://www.columbiaspectator.com/resizer/v2/AO2C3ZMQNJE3JHE3KHFAQH3DQQ.jpeg?auth=83ee33c8c6a534c4d0ad1cd9fdef94450006ff9918069f0663b8ae702b5429a5"
+  },
+  {
+    article_link: "https://www.columbiaspectator.com/opinion/2025/05/19/in-focus-four-years-in-13-photos/",
+    article_title: "In Focus: Four years in 13 photos",
+    article_authors: "Judy Goldstein",
+    image_url: "https://www.columbiaspectator.com/resizer/v2/NGYAFYDH5NFORITFLT577W6JGQ.JPEG?auth=c2d1878425bc6584c2178abbbcc5959213f8a89c43e2f8d8d4b67efe8477755b"
+  },
+  {
+    article_link: "https://www.columbiaspectator.com/opinion/2025/05/18/on-talking-to-strangers-a-love-letter-to-city-news/",
+    article_title: "On talking to strangers: A love letter to City News",
+    article_authors: "Amira Mckee",
+    image_url: "https://www.columbiaspectator.com/resizer/v2/JWCZP5CXZFCJTHAVDORXHOUH3Q.jpg?auth=c31db75f0043400deb7d99dcd1e9d29a88994590322b8430e00b1f99d5840fff"
+  },
+  {
+    article_link: "https://www.columbiaspectator.com/opinion/2025/05/20/into-the-deep-end-bones-and-all/",
+    article_title: "Into the deep end, bones and all",
+    article_authors: "Emily Chen",
+    image_url: "https://www.columbiaspectator.com/resizer/v2/2YUHCPB6ZZDCLNZV347HWYUBUI.jpg?auth=04661467627d9fd4078c897bd240f8d0bc6f01d88f8e1e5e4122946e5157ea76"
+  },
+  {
+    article_link: "https://www.columbiaspectator.com/opinion/2025/05/06/on-criticism/",
+    article_title: "On criticism",
+    article_authors: "Kelsea Petersen",
+    image_url: "https://www.columbiaspectator.com/resizer/v2/UNTM6ND74FBJTPSSCDYJA7H5XI.jpg?auth=c77ea8404063d4a76a462f2bff29f9b395a217176b9f4eb3680ff67eb8e65716"
+  },
+  {
+    article_link: "https://www.columbiaspectator.com/opinion/2025/05/20/running-and-walking-or-goodbye-to-all-that/",
+    article_title: "Running and Walking, or ‘Goodbye to All That’",
+    article_authors: "Esther Sun",
+    image_url: "https://www.columbiaspectator.com/resizer/v2/7FY5T5C2HFHGDACCHXFWQ3XZTY.jpg?auth=3fbbf7c2bacd509f75c184bfa185c50641700d91c3dc6560e8ccf1f7cbf0c8e6"
+  },
+  {
+    article_link: "https://www.columbiaspectator.com/opinion/2025/05/18/a-farewell-letter-from-a-former-editor/",
+    article_title: "A (farewell) letter from a (former) editor",
+    article_authors: "Kenneth Roedl",
+    image_url: "https://www.columbiaspectator.com/resizer/v2/EICM53SCFJDFDMFFBQYKXZDQCY.jpeg?auth=55b3ab0f37c25d7b89df4cc93910725fc1610c40210945448fa2089f2f66a22f"
+  },
+  {
+    article_link: "https://www.columbiaspectator.com/opinion/2025/05/18/a-good-time-not-a-long-time/",
+    article_title: "A good time, not a long time",
+    article_authors: "Takashi Williams",
+    image_url: "https://www.columbiaspectator.com/resizer/v2/E3KRAN7N2JH3NFUCJCQAIYKE6U.jpeg?auth=6377bf4d17fb6441a25e654dec78653c2c123c008d11046f422684571fc7f8cc"
+  },
+  {
+    article_link: "https://www.columbiaspectator.com/opinion/2025/05/18/on-promises-kept/",
+    article_title: "On promises kept",
+    article_authors: "Sydney Goldson",
+    image_url: "https://www.columbiaspectator.com/resizer/v2/V3GCMQHGS5HYLCBLOUH7PYHBEM.jpeg?auth=12029b92f81e5386b41cf3e3696d4f646fc7432960518dd9d58d9a2f644065a7"
+  },
+  {
+    article_link: "https://www.columbiaspectator.com/opinion/2025/05/20/on-devotion-and-sunk-cost-fallacies/",
+    article_title: "On Devotion and sunk-cost fallacies",
+    article_authors: "Ariana Eftimu",
+    image_url: "https://www.columbiaspectator.com/resizer/v2/N56QFC7WOFHUNG24CWBCC2T55U.jpeg?auth=6a45ccad87dcaa35732247d41bbf70cc5516e9150730aae0624164a90aa9119f"
+  }
+];
+
+
 export const spectrum_articles = [
   {
     "article_link": "https://www.columbiaspectator.com/spectrum/2025/05/04/a-farewell-to-the-class-of-2025/",

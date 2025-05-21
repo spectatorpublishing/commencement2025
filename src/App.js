@@ -19,6 +19,7 @@ function App() {
         <Route path="/sports" element={<Overlay />} />
         <Route path="/crosswords" element={<Overlay />} />
         <Route path="/spectrum" element={<Overlay />} />
+        <Route path="/opinion" element={<Overlay />} />
       </Routes>
     </>
 

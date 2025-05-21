@@ -16,6 +16,7 @@ import {
   sports_articles,
   crossword_articles,
   spectrum_articles,
+  opinion_articles
 } from "../data/articles";
 
 const routeTitles = {
@@ -25,6 +26,7 @@ const routeTitles = {
   "/sports": "SPORTS",
   "/crosswords": "CROSSWORDS",
   "/spectrum": "SPECTRUM",
+  "/opinion": "OPINION"
 };
 
 const OverlayPage = () => {
@@ -38,6 +40,7 @@ const OverlayPage = () => {
     "/sports": sports_articles,
     "/crosswords": crossword_articles,
     "/spectrum": spectrum_articles,
+    "/opinion": opinion_articles
   };
 
   const articles = sectionMap[location.pathname] || [];

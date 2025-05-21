@@ -14,6 +14,7 @@ import BackToTopButton from "../components/BackToTopButton";
     "/sports": "SPORTS",
     "/crosswords": "CROSSWORDS",
     "/spectrum": "SPECTRUM",
+    "/opinion": "OPINION"
   };
 
 const sectionMap = {
@@ -23,6 +24,7 @@ const sectionMap = {
   "/sports": require("../data/articles").sports_articles,
   "/crosswords": require("../data/articles").crossword_articles,
   "/spectrum": require("../data/articles").spectrum_articles,
+  "/opinion": require("../data/articles").opinion_articles
 };
 
 // Styled Components

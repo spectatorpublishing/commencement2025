@@ -77,6 +77,7 @@ const MobileNavBar = () => (
       <IconRow>
         <NavIcon to="/" label="Home" />
         <NavIcon to="/university" label="University" />
+        <NavIcon to="/opinion" label="Opinion" />
         <NavIcon to="/arts" label="A&C" />
       </IconRow>
     </NavBarContainer>
