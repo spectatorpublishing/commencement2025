@@ -10,15 +10,19 @@ function App() {
   const Overlay = isMobile ? MobileOverlayPage : OverlayPage;
   
   return (
-    <Routes>
-      <Route path="/" element={<Homepage />} />
-      <Route path="/university" element={<Overlay />} />
-      <Route path="/arts" element={<Overlay />} />
-      <Route path="/audio" element={<Overlay />} />
-      <Route path="/sports" element={<Overlay />} />
-      <Route path="/crosswords" element={<Overlay />} />
-      <Route path="/spectrum" element={<Overlay />} />
-    </Routes>
+    <>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/university" element={<Overlay />} />
+        <Route path="/arts" element={<Overlay />} />
+        <Route path="/audio" element={<Overlay />} />
+        <Route path="/sports" element={<Overlay />} />
+        <Route path="/crosswords" element={<Overlay />} />
+        <Route path="/spectrum" element={<Overlay />} />
+      </Routes>
+    </>
+
+  
   );
 }
 
