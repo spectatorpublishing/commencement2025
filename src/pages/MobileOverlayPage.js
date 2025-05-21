@@ -2,8 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import { useLocation } from "react-router-dom";
 import MobileCard from "../components/MobileCard";
-
-
+import MobileNavBar from "../components/mobile_componenets/mobile_navbar";
+import BackToTopButton from "../components/BackToTopButton";
 
 
 import {
@@ -11,7 +11,7 @@ import {
     ac_articles,
     audio_articles,
     sports_articles,
-    opinion_articles,
+    crossword_articles,
     spectrum_articles,
   } from "../data/articles";
   
@@ -20,7 +20,7 @@ import {
     "/arts": "A&C",
     "/audio": "AUDIO",
     "/sports": "SPORTS",
-    "/opinion": "OPINION",
+    "/crosswords": "CROSSWORDS",
     "/spectrum": "SPECTRUM",
   };
 
@@ -33,6 +33,16 @@ const ArticleWrapper = styled.div`
     gap:30px;
 `
 
+const Spacer = styled.div`
+    padding: 23px;
+`
+
+const CardLink = styled.a`
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+`;
 
 
 const MobileOverlayPage = () => {
@@ -44,7 +54,7 @@ const MobileOverlayPage = () => {
       "/arts": ac_articles,
       "/audio": audio_articles,
       "/sports": sports_articles,
-      "/opinion": opinion_articles,
+      "/crosswords": crossword_articles,
       "/spectrum": spectrum_articles,
     };
   
@@ -55,12 +65,23 @@ const MobileOverlayPage = () => {
 
 
   return (  
+    <>
+    <MobileNavBar></MobileNavBar>
+    <Spacer/>
     <ArticleWrapper>
-            <MobileCard></MobileCard>
-            <MobileCard></MobileCard>
-            <MobileCard></MobileCard>
-            <MobileCard></MobileCard>
-    </ArticleWrapper>
+        {articles.map((article, index) => (
+          <MobileCard
+            number={index + 1}
+            title={article.article_title}
+            authorName={article.article_authors}
+            image={article.image_url}
+            url={article.article_link}
+          />
+           ))}
+      </ArticleWrapper>
+      
+      <BackToTopButton />
+    </>
 
   );
 };

@@ -14,7 +14,7 @@ import {
   ac_articles,
   audio_articles,
   sports_articles,
-  opinion_articles,
+  crossword_articles,
   spectrum_articles,
 } from "../data/articles";
 
@@ -23,7 +23,7 @@ const routeTitles = {
   "/arts": "A&C",
   "/audio": "AUDIO",
   "/sports": "SPORTS",
-  "/opinion": "OPINION",
+  "/crosswords": "CROSSWORDS",
   "/spectrum": "SPECTRUM",
 };
 
@@ -36,7 +36,7 @@ const OverlayPage = () => {
     "/arts": ac_articles,
     "/audio": audio_articles,
     "/sports": sports_articles,
-    "/opinion": opinion_articles,
+    "/crosswords": crossword_articles,
     "/spectrum": spectrum_articles,
   };
 
