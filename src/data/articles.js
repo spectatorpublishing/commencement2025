@@ -128,7 +128,7 @@ export const sports_articles = [
   },
   {
     article_link: "https://www.columbiaspectator.com/sports/2025/05/07/a-second-family-fatima-keita-cc-25-on-finding-community-on-the-tennis-court/",
-    article_title: "Phoebe Anderson, CC ’24, runs with purpose, not just pace",
+    article_title: "‘A second family’: Fatima Keita, CC ’25, on finding community on the tennis court",
     article_authors: "Holden Lombardo",
     image_url: "https://www.columbiaspectator.com/resizer/v2/ERXWTT6CNRGO5BDRWOLLNIPKTQ.jpg?auth=384c8d4a726f8606b7e687fba4fe8d789a3efb0c2b97d63b5a616f25ffda0fcc"
   },
